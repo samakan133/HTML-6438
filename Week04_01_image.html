@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samakan Panyaroj">
+    <meta name="description" content="เรียนรู้คำสั่ง HTML เบื้องต้น">
+    <meta name="keywords" content="html css bootstrap javascript">
+    <title>image-samakan</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            background-image: url("images/christmas.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to samakan Homepage</h1>
+    <hr>
+    <h3 style="text-align: right;"><a href="home.html">back to Home</a></h3>
+
+    <h3>Image syntax</h3>
+    <p>เเสดงรูปภาพ โดยการอ้าวอิงจากเว็บไซต์</p>
+    <img src="https://www.grandprix.co.th/wp-content/uploads/2017/03/Lamborghini-Huracan-111-585x400@2x.jpg" alt="รถเเลมโบกินี่">
+    <hr>
+    <p id="flower">เเสดงรูปภาพ โดยการอ้าวอิงจากโฟเดอร์ในเครื่องของเรา</p>
+    <img src="images/flower-icon-3.png" alt="flower">
+    <hr>
+    <p>เเสดงรูปภาพ โดยการอ้าวอิงจากโฟเดอร์ในเครื่องของเรา เเละปรับขนาดภาพเป็นพิกเซล</p>
+    <img src="images/flower-icon-3.png" alt="flower"width="50px" height="50px"> 
+    <hr>
+    <p>เเสดงรูปภาพ โดยการอ้าวอิงจากโฟเดอร์ในเครื่องของเรา เเละปรับขนาดภาพเป็นเปอร์เซ็น</p>
+    <img src="images/flower-icon-3.png" alt="flower"width="50%" height="50%"> 
+    <hr>
+    <p>เเสดงรูปภาพ โดยการอ้าวอิงจากโฟเดอร์ในเครื่องของเรา เเละปรับขนาดภาพด้วย css</p>
+    <img src="images/flower-icon-3.png" alt="flower" style="width: 50%; height: 50%;"> 
+    <hr>
+    <p>เเสดงรูปภาพไว้ด้านขวาของข้อความ <br>
+    <img src="images/flower-icon-3.png" alt="flower" style="width: 20%; height: 20%;float: right;"> 
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae eos nesciunt nam eligendi debitis, et delectus ratione corporis laudantium sequi itaque iste vel illum nostrum qui! Dolore, inventore deserunt.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur libero cumque est? Suscipit iusto amet, maxime eligendi sed vitae architecto eos? Deleniti quibusdam non dicta ab labore, amet eligendi.
+    </p>
+    <hr>
+    <p>link เเบบรูปภาพ</p>
+    <a href="home.html"><img src="images/flower-icon-3.png" alt="flower"width="50px" height="50px"></a>
+
+
+</body>
+</html>

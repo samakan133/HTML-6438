@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samakan">
+    <title>link-Samakan</title>
+    <style>
+        
+        img{
+            width: 50px;  
+        }
+        /*
+        a:link{
+            color: coral;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(246, 14, 14);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover{
+            color: coral;
+            background-color: bisque;
+            text-decoration: none;
+        }
+        a:active{
+            color: rgb(21, 255, 53);
+            background-color: rgb(255, 155, 33);
+            text-decoration: none;
+        }
+        */
+        
+        a:link, a:visited{
+            background-color: red;
+            color: white;
+            padding: 5px 20px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px ;
+        }
+        a:hover, a:active{
+            background-color: grey;
+            border-radius: 5px ;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="top">Welcome to Samakan Homepage</h1>
+    <hr>
+    <h3 style="text-align: right;"><a href="home.html" style="background-color: aqua;"><img src="https://thumbs.dreamstime.com/b/back-arrow-icon-special-red-round-button-back-arrow-icon-isolated-special-red-round-button-abstract-illustration-102221714.jpg" alt="blank button"></a></h3>
+    <h2>Abosolute.URL</h2>
+    <p>
+        <a href="https://www.npru.ac.th">NPRU</a>
+    </p>
+    <hr>
+    <h2>Target attribute</h2>
+    <p>
+        <a href="https://www.npru.ac.th" target="_blank">NPRU - blank</a>
+    </p>
+    <p>
+        <a href="https://www.npru.ac.th" target="_self">NPRU - self</a>
+    </p>
+    <p>
+        <a href="https://www.npru.ac.th" target="_parent">NPRU - parent</a>
+    </p>
+    <p>
+        <a href="https://www.npru.ac.th" target="_top">NPRU - top</a>
+    </p>
+    <hr>
+    <h2>Relative URL</h2>
+    <p>
+        <a href="home.html">home</a>
+    </p>
+    <hr>
+    <h2>Link to Mail</h2>
+    <p>
+        <a href="mailto:644230030@webmail.npru.ac.th">Mail to Me</a>
+    </p>
+    <hr>
+    <h2>Button Link</h2>
+    <p>
+        <button onclick="document.location='home.html'">back to home</button> <!--สร้างปุ่มกดกลับ-->
+        <button type="submit">ยืนยัน</button>
+        <button type="reset">เคลียร์</button>
+    </p>
+    <hr>
+    <p style="text-align: center;">
+        <a href="#top">Jump to Top</a>
+        <a href="Week04_01_image.html">Jump to File:Image.html</a>
+    </p>
+</body>
+</html>
